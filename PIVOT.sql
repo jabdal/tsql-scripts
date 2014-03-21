@@ -1,10 +1,10 @@
-  @Select varchar(max) = 'select field1,field2,field3'
-	@From varchar(max) = 'from tablename'
-	@DataCol varchar(max)='field2'
-	@ColCol varchar(max)='field3'
-	@ColOrderBy varchar(max)=''
-	@RowOrderBy varchar(max)=''
-	@SummaryType varchar(max)='MAX'
+@Select varchar(max) = 'select field1,field2,field3'
+@From varchar(max) = 'from tablename'
+@DataCol varchar(max)='field2'
+@ColCol varchar(max)='field3'
+@ColOrderBy varchar(max)=''
+@RowOrderBy varchar(max)=''
+@SummaryType varchar(max)='MAX'
 
 
 DECLARE @sql varchar(max)
